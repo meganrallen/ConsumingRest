@@ -19,7 +19,22 @@ Before running the client application, ensure you have the following installed:
 2. Navigate to the project directory
    ```bash
    cd ConsumingRest
-3. Build the application using Maven:
+3. Adding changes:
+   ```bash
+   git add filename   # Add a single file
+   git add .          # Add all files in the current directory
+4. Committing changes:
+   ```bash
+   git commit -m "Your descriptive commit message"
+5. Pushing changes:
+   ```bash
+   git push origin main
+6. Pulling changes:
+   ```bash
+   git pull origin main
+
+## Instructions to Build Using Maven
+1. Build the application using Maven:
    ```bash
    mvn clean package
 
